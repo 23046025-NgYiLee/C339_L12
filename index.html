@@ -1,9 +1,32 @@
-<!-- fix : <html> element does not have a [lang] attribute -->
-    <html lang="en">
-        <head>
-        </head>
-        <body>
-          Hello World!
-        </body>
-        </html>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a sample webpage showcasing how to fix common Google Lighthouse issues.">
+    <title>Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Legible font size for mobile */
+            margin: 0;
+            padding: 0;
+        }
+        button, a {
+            touch-action: manipulation;
+            padding: 10px 20px; /* Appropriately sized tap targets */
+            font-size: 16px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Sample Page</h1>
+    <p>Hello World!</p>
+    <button>Click Me</button>
+    <a href="#">Learn More</a>
+</body>
+</html>
